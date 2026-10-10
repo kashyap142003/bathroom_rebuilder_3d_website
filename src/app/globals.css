@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-serif), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-sans), "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-gold: #d8b282;
+  --color-gold-hover: #c9a16e;
+  --color-gold-muted: rgba(216, 178, 130, 0.2);
+  --color-gold-light: #f5ede2;
+  --color-ivory: #fbf9f5;
+  --color-sand: #e6dfd5;
+  --color-taupe: #c2b8ad;
+  --color-espresso: #1e1b18;
+  --color-charcoal: #151311;
+}
+
+:root {
+  --background: #151311;
+  --foreground: #fbf9f5;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: clip;
+}
+
+/* Custom editorial styling */
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+.headline-fluid {
+  font-size: clamp(2.35rem, 5.2vw, 4.75rem);
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+}
+
+/* Glassmorphism and glow utilities */
+.glass-nav {
+  background: rgba(18, 16, 14, 0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.gold-glow {
+  box-shadow: 0 4px 20px -2px rgba(216, 178, 130, 0.35);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 6px 28px 0 rgba(216, 178, 130, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

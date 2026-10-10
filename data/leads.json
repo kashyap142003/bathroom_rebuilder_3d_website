@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Kashyap Solanki",
+    "email": "ninjaop1402@gmail.com",
+    "phone": "9879119606",
+    "projectType": "Curbless Walk-In Shower Conversion",
+    "zipCode": "90210/Westland",
+    "budgetRange": "$26,000 – $44,000 (Full Master)",
+    "timeline": "Flexible",
+    "description": "Hello",
+    "id": "lead_1791638871255_kd73l",
+    "createdAt": "2026-10-10T13:27:51.255Z",
+    "status": "New"
+  },
+  {
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@example.com",
+    "phone": "(555) 234-5678",
+    "projectType": "Full Master Bath Rebuild",
+    "zipCode": "90210",
+    "budgetRange": ",000 - ,000",
+    "timeline": "Flexible",
+    "description": "Testing webhook trigger",
+    "id": "lead_1791628629671_gwfy1",
+    "createdAt": "2026-10-10T10:37:09.671Z",
+    "status": "New"
+  },
+  {
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@example.com",
+    "phone": "(555) 234-5678",
+    "projectType": "Complete Master Bath Remodel",
+    "zipCode": "90210",
+    "budgetRange": ",000 - ,000",
+    "timeline": "Within 1 - 2 Months",
+    "description": "Interested in a curbless walk-in shower and fluted oak vanity.",
+    "id": "lead_1791625604661_f09q4",
+    "createdAt": "2026-10-10T09:46:44.661Z",
+    "status": "New"
+  }
+]
